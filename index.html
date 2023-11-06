@@ -17,15 +17,25 @@
     </div>
 
     <div id="createTaskSection" class="create__task">
-        <form id="formulario" method="post">
+        <form id="todo-form" method="post">
             <input type="text" id="taskInput" class="task__input" required placeholder="Escribe tu nueva tarea aquí...">
             <button type="submit" id="taskButton" class="task__btn">Crear</button>
         </form>
     </div>
-
-    <div class="todo"></div>
-    <div class="doing"></div>
-    <div class="done"></div>
+<section id="tasks">
+    <div id="todo">
+        <h3>To do</h3>
+     
+    </div>
+    <div id="doing">
+        <h3>Doing</h3>
+   
+    </div>
+    <div id="done">
+        <h3>Done</h3>
+   
+    </div>
+</section>
 </body>
 <footer>
     <script type="module" src="./js/script.js"></script>

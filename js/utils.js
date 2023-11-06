@@ -1,4 +1,4 @@
-export class Tarea {
+export class Task {
     description = "";
     status = "";
 
@@ -8,3 +8,4 @@ export class Tarea {
     }
 
 }
+

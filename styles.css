@@ -13,7 +13,7 @@ body {
     background-color: rgb(184, 113, 130);
     color: aliceblue;
     font-weight: bold;
-    padding-left: 2rem;
+    padding-left: 1rem;
     font-size: .9rem;
 }
 
@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    padding-top: 1rem;
+    padding-top: 3rem;
 
    
 }
@@ -65,3 +65,102 @@ body {
 .task__btn:hover {
 background-color: rgb(187, 77, 112);
 }
+
+#tasks {
+    display: flex;
+  margin-bottom: 3rem;
+}
+
+#todo, #doing, #done {
+    height: 500px;
+    width: 30%;
+    background-color: rgba(165, 128, 146, 0.397);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+padding: 1rem;
+margin-left: 1rem;
+
+}
+
+#todo h3, #doing h3, #done h3 {
+padding-bottom: .5rem;
+    color: #4f2d3a;
+
+}
+
+#tarea {
+    background-color: rgb(255, 229, 235);
+    border-radius: 20px;
+    box-shadow: 0px 3px 4px #897f83;
+    height: 150px;
+    width: 90%;
+   margin-left: 1rem;
+}
+
+
+.card {
+    background-color: rgb(255, 229, 235);
+    border-radius: 20px;
+    box-shadow: 0px 3px 4px #897f83;
+    height: 150px;
+    width: 90%;
+   margin-left: 1rem;
+  margin-bottom: 1rem;
+
+  }
+  
+  .card p {
+  font-size: 1.4rem;
+  padding: .3rem;
+  margin-left: 1rem;
+  }
+  
+  .card button {
+    margin-left: 1rem;
+    
+  }
+  
+  .left-button {
+    background-color: rgb(216, 105, 146);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: .4rem;
+    transition:  background-color 0.2s;
+    cursor: pointer;
+  
+  }
+
+  .left-button:hover {
+    background-color: rgb(232, 63, 97);
+  }
+  
+  .right-button {
+    background-color: rgb(216, 210, 105);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: .4rem;
+    transition:  background-color 0.2s;
+    cursor: pointer;
+  }
+
+  .right-button:hover {
+    background-color: rgb(251, 175, 82);
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    color: rgb(40, 27, 27);
+    border: none;
+    padding: .5rem;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 900;
+ 
+  }
+
